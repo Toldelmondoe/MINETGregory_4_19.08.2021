@@ -13,6 +13,7 @@ button {
     outline: none!important;
 }
 
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -37,6 +38,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+  
 }
 
 .bloc .container {
@@ -155,7 +157,6 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: #151414 !important;
-    scale: 1.2;
 }
 
 #bloc-3-what-i-do a:hover {
@@ -373,6 +374,10 @@ a:hover {
 
 #bloc-4-portfolio .text-img {
     font-size: 22px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -763,6 +768,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    text-align: center;
 }
 
 .avatar {
@@ -807,6 +813,10 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+#bloc-6 .tc-white {
+    color: #151414 !important;
 }
 
 .btn-atomic-tangerine {
