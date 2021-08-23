@@ -298,6 +298,10 @@ a:hover {
     z-index: 1;
 }
 
+blockquote {
+    color: #252628;
+}
+
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
