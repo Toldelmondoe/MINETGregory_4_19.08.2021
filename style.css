@@ -101,10 +101,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.col-sm-12 p {
-    font-size: 14px;
-}
-
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
@@ -596,7 +592,8 @@ a[data-lightbox]:hover img {
 
 #bloc-7 p {
     font-weight: bold;
- 
+    text-align: center;
+    margin-top: 20px;
 }
 
 .lightbox-caption {
@@ -771,9 +768,11 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
-    text-align: center;
+   text-align: center;
+}
+
+#bloc-4-portfolio p {
+    margin-bottom: 50px;
 }
 
 .avatar {
