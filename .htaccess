@@ -6,7 +6,7 @@ BrowserMatch ^Mozilla/4 gzip-only-text/html
 BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
-#ne pas mettre en cache si ces fichiers le sont d�j�
+#ne pas mettre en cache si ces fichiers le sont déjà
 SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
 #les proxies doivent donner le bon contenu
 Header append Vary User-Agent env=!dont-vary
@@ -70,5 +70,5 @@ order allow,deny
 deny from all
 </files>
 
-# protection de la lecture des r�pertoires
+# protection de la lecture des répertoires
 Options -Indexes 
